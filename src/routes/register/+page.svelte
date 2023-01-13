@@ -9,5 +9,8 @@
   <label for="" class="label">Password</label>
   <input type="text" name="password" class="input bg-base-200" />
 
-  <button class="btn btn-primary" type="submit"> Login!</button>
+  <label for="" class="label">Confirm Password</label>
+  <input type="text" name="confirmPassword" class="input bg-base-200" />
+
+  <button class="btn btn-primary" type="submit">Register</button>
 </form>

@@ -4,5 +4,5 @@ import type { RequestHandler } from './$types';
 export const POST = (({ locals }) => {
   locals.pb.authStore.clear();
 
-  throw redirect(301, '/login');
+  throw redirect(303, '/login');
 }) satisfies RequestHandler;

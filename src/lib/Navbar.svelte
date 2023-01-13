@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { enhance } from '$app/forms';
 </script>
 
 <div class="navbar bg-base-100">
